@@ -1,0 +1,8 @@
+.env
+.gradio
+.venv
+__pycache__
+trial.py
+trial2.py
+trial3.py
+trial4.py
