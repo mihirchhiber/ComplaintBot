@@ -60,13 +60,13 @@ This project is a conversational AI chatbot built for handling food delivery com
 
    ```bash
    Copy code
-   python complaint_bot.py
+   python main.py
    ```
 7. Access the chatbot interface locally through the Gradio interface, which will open in your browser.
 
    
 ## Components
-### complaint_bot.py
+### main.py
 This file contains the main logic for the chatbot, including the integration of LangChain agents, tools, and LLMs (Large Language Models). The chatbot communicates with users, handles complaints, and interacts with the database and email systems.
 
 - Main Functions:
@@ -99,7 +99,12 @@ This file handles Retrieval-Augmented Generation (RAG) for enhanced response gen
 2. Chatbot: "Please provide your order number so I can check the status."
 3. User: "Order number 2743."
 4. Chatbot: "Your order is marked as 'late delivery'. Would you like me to initiate a refund or set it for manual review?"
-[screenshot: Chatbot Interface]
+
+![Alt text](screenshots\71320b5e-dc7f-40af-907c-e15ee797aee7.jpg?raw=true "Optional Title")
+
+![Alt text](screenshots\photo_6258182064180412528_y.jpg?raw=true "Optional Title")
+
+![Alt text](screenshots\photo_6258182064180412616_y.jpg?raw=true "Optional Title")
 
 ## Testing
 To test the system, you can use the Gradio interface, which allows you to interact with the chatbot directly. Input test complaints or order statuses and observe how the chatbot handles different scenarios.
