@@ -66,7 +66,7 @@ This project is a conversational AI chatbot built for handling food delivery com
 
    
 ## Components
-complaint_bot.py
+### complaint_bot.py
 This file contains the main logic for the chatbot, including the integration of LangChain agents, tools, and LLMs (Large Language Models). The chatbot communicates with users, handles complaints, and interacts with the database and email systems.
 
 - Main Functions:
@@ -74,16 +74,16 @@ This file contains the main logic for the chatbot, including the integration of 
   - Formats messages and invokes the chatbot's response generation.
   - Manages the conversation flow and history.
 
-setup_db.py
+### setup_db.py
 This file sets up the PostgreSQL database and defines functions for querying and updating order information, such as:
 
-= Order status
+### Order status
 - Email associated with orders
 - Manual review (human check)
 - Refund status
 - It includes functions for connecting to the database, creating tables, and inserting sample data for testing purposes.
 
-setup_email.py
+### setup_email.py
 This file contains functions for sending voucher emails. The email includes a randomly generated voucher code to resolve customer complaints. The SMTP settings are configured to use Gmail's email server.
 
 setup_rag.py
