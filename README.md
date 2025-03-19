@@ -102,9 +102,11 @@ This file handles Retrieval-Augmented Generation (RAG) for enhanced response gen
 
 ![Alt text](/screenshots/photo_6258182064180412616_y.jpg?raw=true "Optional Title")
 
-![Alt text](/screenshots/71320b5e-dc7f-40af-907c-e15ee797aee7.jpg?raw=true "Optional Title")
+![Alt text](/screenshots/photo_6258182064180412620_y.jpg?raw=true "Optional Title")
 
 ![Alt text](/screenshots/photo_6258182064180412528_y.jpg?raw=true "Optional Title")
+
+![Alt text](/screenshots/71320b5e-dc7f-40af-907c-e15ee797aee7.jpg?raw=true "Optional Title")
 
 ## Testing
 To test the system, you can use the Gradio interface, which allows you to interact with the chatbot directly. Input test complaints or order statuses and observe how the chatbot handles different scenarios.
